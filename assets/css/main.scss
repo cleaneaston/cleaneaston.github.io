@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Easton colors
+$easton-blue: #002868;
+$easton-white: #FFF;
+$easton-red: #be2130;
+
+// Custom styles
+.greedy-nav a.site-title {
+    color: $easton-blue;
+    text-align: center;
+}
+
+.page__title {
+    text-align:center;
+}
+
+.page__hero--overlay {
+    padding: 5.5em 0;
+}
