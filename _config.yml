@@ -28,7 +28,7 @@ twitter_username:
 github_username:
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 logo: "/assets/images/logo-sm.jpg"
 
 analytics:
